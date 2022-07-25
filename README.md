@@ -1,6 +1,6 @@
 # HCJ
 
-<ul>
+<ol>
   <li><a href="https://www.w3schools.com/html/html_comments.asp">Comments</a></li><br>
   <li><a href="https://www.w3schools.com/html/html_headings.asp">Heading</a></li><br>
   <li><a href="https://www.w3schools.com/html/html_paragraphs.asp">Paragraphs</a></li><br>
@@ -13,4 +13,4 @@
   <li><a href="">Paragraphs</a></li><br>
   <li><a href="">Paragraphs</a></li><br>
   <li><a href="">Paragraphs</a></li><br>
-</ul>
+</ol>
