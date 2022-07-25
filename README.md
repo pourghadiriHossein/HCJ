@@ -7,7 +7,7 @@
       <li>Learn HTML<br>
         <br>
         <ul>
-        <li>Learn HTML</li><br>
+        <li>Train</li><br>
         </ul>
       </li><br>
       <li>Learn CSS</li><br>
