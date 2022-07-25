@@ -14,4 +14,5 @@
     </ul>
   </li><br>
   <li><a href="https://www.w3schools.com/tags/default.asp">All Tag in HTML</a></li><br>
+  <li><a href="https://www.w3schools.com/html/html_blocks.asp">HTML Block and Inline Elements</a></li><br>
 </ul>
