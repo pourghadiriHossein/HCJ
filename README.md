@@ -22,7 +22,12 @@
         <li>Train</li><br>
         </ul>
       </li><br>
-      <li>Calculator Train</li><br>
+      <li>Calculator Project<br>
+        <br>
+        <ul>
+        <li>Train</li><br>
+        </ul>
+      </li><br>
       <li>Main Project<br>
         <br>
         <ul>
