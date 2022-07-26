@@ -10,4 +10,5 @@
   <li><a href="https://www.w3schools.com/css/css_list.asp">Lists</a></li><br>
   <li><a href="https://www.w3schools.com/css/css_table.asp">Tables</a></li><br>
   <li><a href="https://www.w3schools.com/css/css_display_visibility.asp">The display Property</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css_max-width.asp">width and max-width</a></li><br>
 </ol>
