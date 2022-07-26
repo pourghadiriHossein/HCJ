@@ -6,7 +6,7 @@
   <li><a href="https://www.w3schools.com/css/css_howto.asp">How To Add CSS</a></li><br>
   <li><a href="https://www.w3schools.com/css/css_comments.asp">Comments</a></li><br>
   <li>
-    <a href="https://www.w3schools.com/css/css_colors.asp">Colors</a>
+    <a href="https://www.w3schools.com/css/css_colors.asp">Colors</a><br>
     <ul>
       <li><a href="https://www.canva.com/colors/color-wheel/">Color Harmony</a></li><br>
     </ul>
