@@ -1,14 +1,16 @@
-# CSS
+# CSS Advanced
 
 <ol>
-  <li><a href="https://www.w3schools.com/css/css_positioning.asp">The position Property</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_z-index.asp">The z-index Property</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_overflow.asp">Overflow</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_float.asp">Float and Clear</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_inline-block.asp">Display: inline-block</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_align.asp">Horizontal & Vertical Align</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_image_transparency.asp">Opacity / Transparency</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_navbar.asp">Navigation Bar</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_dropdowns.asp">Dropdowns</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_image_gallery.asp">Image Gallery</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css3_2dtransforms.asp">2D Transforms</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css3_3dtransforms.asp">3D Transforms</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css3_transitions.asp">Transitions</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css3_animations.asp">Animations</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css_tooltip.asp">Tooltip</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css3_images.asp">Styling Images</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css3_buttons.asp">Buttons</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css3_pagination.asp">Pagination</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css3_user_interface.asp">User Interface</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css3_box-sizing.asp">Box Sizing</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css3_mediaqueries.asp">Media Queries</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css3_flexbox.asp">Flexbox</a></li><br>
 </ol>
