@@ -1,0 +1,23 @@
+div#one {
+    height: 50px; /* height: auto|length|initial|inherit; */
+    width: 100%;
+    border: 1px solid #4CAF50;
+  }
+
+div#two {
+    height: 200px;
+    width: 50%;
+    background-color: aquamarine;
+}
+
+div#three {
+    height: 100px;
+    max-width: 800px;
+    background-color: #4CAF50;
+}
+
+div#four {
+    height: 100px;
+    min-width: 800px;
+    background-color: darkgoldenrod;
+}
