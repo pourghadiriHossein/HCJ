@@ -1,0 +1,57 @@
+table.ed1, th.ed1, td.ed1 {
+    border: 1px solid;
+    width: 100%;
+    text-align: right;
+}
+
+table.ed2, th.ed2, td.ed2 {
+    border: 1px solid;
+    width: 100%;
+    border-collapse: collapse;
+}
+table.ed3 {
+    width: 100%;
+    border: 1px solid;
+}
+
+table.ed4 td.ed4, th.ed4 {
+    border: 1px solid black;
+    text-align: center;
+}
+  
+table.ed4 {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th.ed4 {
+    height: 70px;
+    vertical-align: bottom;
+}
+
+table.ed5 {
+    border-collapse: collapse;
+    width: 100%;
+}
+th.ed5 {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+td.ed5 {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr#ed5 {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr#ed5:nth-child(even) {
+    background-color: rgb(214, 214, 214);
+}
+tr#ed5:hover {
+    background-color: black;
+    color: white;
+}
