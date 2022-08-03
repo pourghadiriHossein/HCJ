@@ -1,0 +1,31 @@
+p.ex1 {
+    display: none;
+    color: red;
+}
+p.ex2 {
+    display: inline;
+    color: red;
+}
+p.ex3 {
+    display: block;
+    color: red;
+}
+p.ex4 {
+    display: inline-block;
+    color: red;
+}
+
+/* display: value;
+value: inline | block | contents | flex | grid | inline-block | inline-flex | inline-grid 
+| inline-table | list-item | run-in | table | table-caption | table-column-group
+| table-header-group | table-footer-group | table-row-group | table-cell | table-column | 
+| table-row none | initial inherit */
+
+h2.a {
+    visibility: visible;
+    /* visibility: visible|hidden|collapse|initial|inherit; */
+}
+  
+h2.b {
+    visibility: hidden;
+}
