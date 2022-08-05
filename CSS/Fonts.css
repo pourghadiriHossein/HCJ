@@ -1,0 +1,56 @@
+p#ed1 {
+    font-family: 'Courier New', monospace; 
+    /* font-family: family-name|generic-family|initial|inherit; */
+}
+
+p#ed2 {
+    font-style: oblique; /* font-style: normal|italic|oblique|initial|inherit; */
+}
+p#ed3 {
+    font-weight: bold; /* font-weight: normal|bold|bolder|lighter|number|initial|inherit; */
+}
+p#ed4 {
+    font-variant: small-caps; /* font-variant: normal|small-caps|initial|inherit; */
+}
+p#ed5 {
+    font-size: 45px;
+    /* font-size:medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit; */
+}
+p#ed6 {
+    font-family: "Noto Nastaliq Urdu";
+    /* https://fonts.google.com */
+}
+p#ed7 {
+    font-family: "Audiowide", sans-serif;
+}
+p#ed8 {
+    font-family: "Sofia", sans-serif;
+}
+p#ed9 {
+    font-family: "Trirong", sans-serif;
+}
+p#ed10 {
+    /* font: font-style font-variant font-weight
+     font-size/line-height
+      font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit; */
+    font: italic small-caps bold 30px/60px Georgia, serif;
+}
+
+/* @font-face {
+    font-properties
+  } */
+
+  /* TrueType Font (.TTF)
+OpenType Font (.OTF)
+Embedded Open Type (.EOT)
+Web Open Font Format Font (WOFF/WOFF2)
+Scalable Vector Graphics (.SVG)   */
+@font-face {
+    font-family: myFont;
+    src: url(../Fonts/Magic\ Retro.ttf);
+}  
+p#ed11 {
+    font-family: myFont;
+    font-size: xx-large;
+}
+
