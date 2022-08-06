@@ -1,0 +1,65 @@
+div.div0 {
+    float: left; /* float: none|left|right|initial|inherit; */
+    padding: 15px; 
+  }
+  
+  .div1 {
+    background: red;
+  }
+  
+  .div2 {
+    background: yellow;
+  }
+  
+  .div3 {
+    background: green;
+  }
+
+  /* When we use the float property,
+   and we want the next element below (not on right or left),
+    we will have to use the clear property */
+
+/* The clear property specifies what should happen
+ with the element that is next to a floating element. */
+
+ .div4 {
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+  }
+  
+  .div5 {
+    padding: 10px;
+    border: 3px solid red;
+  }
+  
+  .div6 {
+    float: left;
+    padding: 10px;  
+    border: 3px solid #73AD21;
+  }
+  
+  .div7 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left; /* clear: none|left|right|both|initial|inherit; */
+  }
+
+  div.div8 {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+  }
+  
+  .img1 {
+    float: right;
+  }
+  
+  .img2 {
+    float: right;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

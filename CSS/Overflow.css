@@ -1,0 +1,103 @@
+div.ex1 {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: scroll; /* overflow: visible|hidden|clip|scroll|auto|initial|inherit; */
+  }
+  
+  div.ex2 {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+  }
+  
+  div.ex3 {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: auto;
+  }
+  
+  div.ex4 {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: clip;
+  }
+  
+  div.ex5 {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: visible;
+  }
+
+  div.a {
+    width: 150px; 
+    border: 1px solid #000000;
+  }
+  
+  div.b {
+    overflow-wrap: normal; /* overflow-wrap: normal|anywhere|break-word|initial|inherit; */
+  }
+  
+  div.c {
+    overflow-wrap: break-word;
+  }
+  
+  div.d {
+    overflow-wrap: anywhere;
+  }
+
+  div.e {
+    background-color: lightblue;
+    width: 40px;
+    overflow-x: scroll; /* overflow-x: visible|hidden|scroll|auto|initial|inherit; */
+  }
+  
+  div.f {
+    background-color: lightblue;
+    width: 40px;
+    overflow-x: hidden;
+  }
+  
+  div.g {
+    background-color: lightblue;
+    width: 40px;
+    overflow-x: auto;
+  }
+  
+  div.h {
+    background-color: lightblue;
+    width: 40px;
+    overflow-x: visible;
+  }
+
+  div.i {
+    background-color: lightblue;
+    height: 40px;
+    width: 200px;
+    overflow-y: scroll; /* overflow-y: visible|hidden|scroll|auto|initial|inherit; */
+  }
+  
+  div.j {
+    background-color: lightblue;
+    height: 40px;
+    width: 200px;  
+    overflow-y: hidden;
+  }
+  
+  div.k {
+    background-color: lightblue;
+    height: 40px;
+    width: 200px;  
+    overflow-y: auto;
+  }
+  
+  div.l {
+    background-color: lightblue;
+    height: 40px;
+    width: 200px;  
+    overflow-y: visible;
+  }
