@@ -1,0 +1,42 @@
+/* The z-index Property
+When elements are positioned, they can overlap other elements.
+
+The z-index property specifies the stack order of an element 
+(which element should be placed in front of, or behind, the others). */
+
+.container {
+    position: relative;
+    margin: 50px;
+  }
+  
+  .red-box {
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.5);
+    color: black;
+    height: 200px;
+    width: 300px;
+    left: 50px;
+    top: 0;
+    z-index: -1; /* z-index: auto|number|initial|inherit; */
+  }
+  
+  .green-box {
+    position: absolute;
+    background: rgba(0, 255, 0, 0.5);
+    color: black;
+    height: 200px;
+    width: 300px;
+    left: 100px;
+    top: 50px;
+    z-index: 0;
+  }
+  
+  .blue-box {
+    position: absolute;
+    background: rgba(0, 0, 255, 0.5);
+    height: 200px;
+    width: 300px;
+    left: 150px;
+    top: 100px;
+    z-index: 1;
+  }
