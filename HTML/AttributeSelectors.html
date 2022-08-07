@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/AttributeSelectors.css">
+</head>
+<body>
+
+    <h2>CSS [attribute] Selector</h2>
+    <p>The links with a target attribute gets a yellow background:</p>
+
+    <a class="ed1" href="https://www.w3schools.com">w3schools.com</a>
+    <a class="ed1" href="http://www.disney.com" target="_blank">disney.com</a>
+    <a class="ed1" href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+    <br>
+    <hr>
+    <br>
+    <h2>CSS [attribute="value"] Selector</h2>
+    <p>The link with target="_blank" gets a yellow background:</p>
+
+    <a class="ed2" href="https://www.w3schools.com">w3schools.com</a>
+    <a class="ed2" href="http://www.disney.com" target="_blank">disney.com</a>
+    <a class="ed2" href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+    <br>
+    <hr>
+    <br>
+    <h2>CSS [attribute~="value"] Selector</h2>
+    <p>All images with the title attribute containing the word "flower" get a yellow border.</p>
+
+    <img src="../Image/selector1.jpeg" title=" flower environment" width="300" height="200">
+    <img src="../Image/selector2.jpeg" title="animal" width="350" height="250">
+    <img src="../Image/selector3.jpg" title="environment" width="300" height="200">
+    <br>
+    <hr>
+    <br>
+    <h2>CSS [attribute|="value"] Selector</h2>
+
+    <h1 class="top-header">Welcome</h1>
+    <p class="top-text">Hello world!</p>
+    <p class="topcontent">Are you learning CSS?</p>
+    <br>
+    <hr>
+    <br>
+    <h2>CSS [attribute^="value"] Selector</h2>
+
+    <h1 class="up-header">Welcome</h1>
+    <p class="up-text">Hello world!</p>
+    <p class="upcontent">Are you learning CSS?</p>
+    <br>
+    <hr>
+    <br>
+    <h2>CSS [attribute$="value"] Selector</h2>
+
+    <div class="first_test">The first div element.</div>
+    <div class="second">The second div element.</div>
+    <div class="my-test">The third div element.</div>
+    <p class="mytest">This is some text in a paragraph.</p>
+    <br>
+    <hr>
+    <br>
+    <h2>CSS [attribute*="value"] Selector</h2>
+
+    <div class="first_train">The first div element.</div>
+    <div class="second">The second div element.</div>
+    <div class="my-train">The third div element.</div>
+    <p class="mytrain">This is some text in a paragraph.</p>
+    <br>
+    <hr>
+    <br>
+    <h2>Styling Forms</h2>
+
+    <form name="input" action="" method="get">
+        Firstname:<input type="text" name="Name" value="Peter" size="20">
+        Lastname:<input type="text" name="Name" value="Griffin" size="20">
+        <input type="button" value="Example Button">
+    </form>
+</body>
+</html>
