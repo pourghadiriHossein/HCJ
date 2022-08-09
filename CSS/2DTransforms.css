@@ -1,0 +1,103 @@
+div.ed1 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: translate(50px,50px);
+  }
+  /******************************************************/
+
+  div.ed2 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  div#myDiv1 {
+    transform: rotate(20deg);
+  }
+  /*****************************************************************/
+  div.ed3 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scale(2,3);
+  }
+  /**********************************************************************/
+  div.ed4 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleX(2);
+  }
+  /**************************************************************************/
+  div.ed5 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-left: 100px;
+  }
+  
+  div#myDiv2 {
+    transform: skewX(20deg);
+  }
+  /***********************************************************************/
+  div.ed6 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-left: 100px;
+  }
+  
+  div#myDiv3 {
+    transform: skew(20deg,10deg);
+  }
+  /*********************************************************************/
+  div.ed7 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  div#myDiv4 {
+    transform: skew(80deg);
+  }
+  /**********************************************************************/
+  div.ed8 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-left: 100px;
+  }
+  
+  div#myDiv5 {
+    transform: skew(20deg);
+  }
+  /****************************************************************************/
+  div.ed9 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-left: 100px;
+  }
+  
+  div#myDiv6 {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+  }
+  
+  div#myDiv7 {
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+  }
+  /* The parameters are as follow:
+   matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()) 
+   */
