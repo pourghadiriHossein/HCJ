@@ -1,0 +1,63 @@
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+  /******************************************************/
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 80px 200px auto 30px;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  /**********************************************************/
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  /*************************************************************/
+  .grid-container4 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container4 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  /****************************************************************/
+  
