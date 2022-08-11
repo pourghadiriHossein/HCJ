@@ -1,0 +1,260 @@
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .itemStep1 {
+    grid-column: 1 / 5;
+  }
+  /***********************************************************/
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .itemStep2 {
+    grid-column: 1 / span 3;
+  }
+  /*************************************************************/
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .itemStep3 {
+    grid-column: 2 / span 3;
+  }
+  /****************************************************************/
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container4 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .itemStep4 {
+    grid-row: 1 / 4;
+  }
+  /**************************************************************/
+  .grid-container5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container5 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .itemStep5 {
+    grid-row: 1 / span 2;
+  }
+  /*******************************************************************/
+  .grid-container6 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container6 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .itemStep6 {
+    grid-area: 1 / 2 / 5 / 6;
+  }
+  /*******************************************************************/
+  .grid-container7 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container7 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .itemStep7 {
+    grid-area: 2 / 1 / span 2 / span 3;
+  }
+  /*****************************************************************/
+  .itemStep8 {
+    grid-area: myArea;
+  }
+  
+  .grid-container8 {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container8 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  /***************************************************************/
+  .itemStep9 {
+    grid-area: myArea;
+  }
+  
+  .grid-container9 {
+    display: grid;
+    grid-template-areas: 'myArea myArea . . .';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container9 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  /*************************************************************/
+  .itemStep10 {
+    grid-area: myArea;
+  }
+  
+  .grid-container10 {
+    display: grid;
+    grid-template-areas: 'myArea myArea . . .' 'myArea myArea . . .';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container10 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  /******************************************************************/
+  .itemStep11-1 { grid-area: header; }
+  .itemStep11-2 { grid-area: menu; }
+  .itemStep11-3 { grid-area: main; }
+  .itemStep11-4 { grid-area: right; }
+  .itemStep11-5 { grid-area: footer; }
+
+  .grid-container11 {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  .grid-container11 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+/****************************************************************/
+.grid-container12 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container12 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .itemStep12-1 { grid-area: 1 / 3 / 2 / 4; }
+  .itemStep12-2 { grid-area: 2 / 3 / 3 / 4; }
+  .itemStep12-3 { grid-area: 1 / 1 / 2 / 2; }
+  .itemStep12-4 { grid-area: 1 / 2 / 2 / 3; }
+  .itemStep12-5 { grid-area: 2 / 1 / 3 / 2; }
+  .itemStep12-6 { grid-area: 2 / 2 / 3 / 3; }
+  /**********************************************************/
+  .grid-container13 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container13 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .itemStep13-1 { grid-area: 1 / span 3 / 2 / 4; }
+    .itemStep13-2 { grid-area: 3 / 3 / 4 / 4; }
+    .itemStep13-3 { grid-area: 2 / 1 / 3 / 2; }
+    .itemStep13-4 { grid-area: 2 / 2 / span 2 / 3; }
+    .itemStep13-5 { grid-area: 3 / 1 / 4 / 2; }
+    .itemStep13-6 { grid-area: 2 / 3 / 3 / 4; }
+  }
+  /*************************************************/
