@@ -2,7 +2,6 @@
 
 <ol>
   <li><a href="https://www.w3schools.com/js/js_arrays.asp">Arrays</a></li><br>
-  <li><a href="https://www.w3schools.com/js/js_output.asp">Output</a></li><br>
   <li><a href="https://www.w3schools.com/js/js_dates.asp">Date Objects</a></li><br>
   <li><a href="https://www.w3schools.com/js/js_math.asp">Math Object</a></li><br>
   <li><a href="https://www.w3schools.com/js/js_random.asp">Random</a></li><br>
