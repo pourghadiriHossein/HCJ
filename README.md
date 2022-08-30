@@ -5,34 +5,16 @@
     <br>
     <ul>
       <li>Learn HTML<br>
-        <br>
-        <ul>
-        <li>Train</li><br>
-        </ul>
       </li><br>
       <li>Learn CSS<br>
-        <br>
-        <ul>
-        <li>Train</li><br>
-        </ul>
       </li><br>
       <li>Learn JAVASCRIPT<br>
-        <br>
-        <ul>
-        <li>Train</li><br>
-        </ul>
       </li><br>
       <li>Main Project<br>
-        <br>
-        <ul>
-        <li>Train</li><br>
-        </ul>
       </li><br>
       <li>Final Project<br>
-        <br>
-        <ul>
-        <li>Train</li><br>
-        </ul>
+      </li><br>
+      <li>Bootstrap 5<br>
       </li><br>
     </ul>
   </li><br>
