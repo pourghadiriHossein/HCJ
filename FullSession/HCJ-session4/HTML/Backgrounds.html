@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p.bgColor {
+            background-color: goldenrod; /* background-color: color|transparent|initial|inherit; */
+            font-size: 32px;
+            opacity: 0.8;
+        }
+        body {
+            background-image: url('../Image/1.jpg');
+            background-repeat: no-repeat; /* background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit; */
+            background-position: right top; /* background-position: value; left top | x% y% | xpos ypos | initial | inherit */
+            background-attachment: fixed; /* background-attachment: scroll|fixed|local|initial|inherit; */
+            background-size: auto; /* background-size: auto|length|cover|contain|initial|inherit; */
+            
+            
+        }
+        #blendMode {
+            width: 400px;
+            height: 400px;
+            background-repeat: no-repeat, repeat;
+            background-image: url("../Image/OMBP3.jpg"), url("../Image/1.jpg");
+            background-blend-mode: multiply; /* background-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|saturation|color|luminosity; */
+        }
+
+        #bgClip {
+            border: 10px dotted black;
+            padding: 15px;
+            background: lightblue;
+            background-clip: border-box; /* background-clip: border-box|padding-box|content-box|initial|inherit; */
+        }
+
+        #bgOrigin {
+            border: 10px dashed black;
+            padding: 25px;
+            background: lightblue;
+            background-origin: padding-box; /* background-origin: padding-box|border-box|content-box|initial|inherit; */
+        }
+    </style>
+</head>
+<body>
+    <p class="bgColor">background-color</p>
+    <hr>
+    <div id="blendMode"></div>
+    <hr>
+    <div id="bgClip"></div>
+    <hr>
+    <div id="bgOrigin"></div>
+
+</body>
+</html>

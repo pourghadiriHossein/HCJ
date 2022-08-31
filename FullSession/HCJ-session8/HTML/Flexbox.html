@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Flexbox.css">
+</head>
+<body>
+    <h1>Create a Flex Container</h1>
+
+    <div class="flex-container1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+    </div>
+    <!-- ************************************************* -->
+    <br><br><hr><br>
+    <h1>The align-content Property</h1>
+
+    <div id="main2">
+        <div style="background-color:coral;"></div>
+        <div style="background-color:lightblue;"></div>
+        <div style="background-color:pink;"></div>
+    </div>
+
+    <p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the align-content property.</p>
+    <!-- **************************************************************** -->
+    <br><br><hr><br>
+    <h1>The order Property</h1>
+
+    <p>Use the order property to sort the flex items as you like:</p>
+
+    <div class="flex-container3">
+        <div style="order: 3">1</div>
+        <div style="order: 2">2</div>
+        <div style="order: 4">3</div> 
+        <div style="order: 1">4</div>
+        <div style="order: 5">5</div>
+        <div style="order: 6">6</div>
+    </div>
+    <!-- *********************************************** -->
+    <br><br><hr><br>
+    <h1>The flex-grow Property</h1>
+
+    <p>Make the third flex item grow eight times faster than the other flex items:</p>
+
+    <div class="flex-container4">
+        <div style="flex-grow: 1">1</div>
+        <div style="flex-grow: 1">2</div>
+        <div style="flex-grow: 8">3</div>
+    </div>
+    <!-- *********************************************** -->
+    <br><br><hr><br>
+    <h1>The flex-shrink Property</h1>
+
+    <p>Do not let the third flex item shrink as much as the other flex items:</p>
+
+    <div class="flex-container5">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-shrink: 0">3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+    <!-- ******************************************************* -->
+    <br><br><hr><br>
+    <h1>The align-self Property</h1>
+
+    <p>The "align-self: center;" aligns the selected flex item in the middle of the container:</p>
+
+    <div class="flex-container6">
+        <div>1</div>
+        <div>2</div>
+        <div style="align-self: center">3</div>
+        <div>4</div>
+    </div>
+
+    <p>The align-self property overrides the align-items property of the container.</p>
+    <!-- *************************************************************** -->
+    <br><br><hr><br>
+    <h2>align-items: center</h2>
+
+    <div id="main7">
+        <div style="background-color:coral;min-height:30px;">RED</div>
+        <div style="background-color:lightblue;min-height:50px;">BLUE</div>  
+        <div style="background-color:lightgreen;min-height:190px;">Green div with more content.</div>
+    </div>
+
+    <p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the align-items property.</p>
+    <!-- ***************************************************************** -->
+    <br><br><hr><br>
+    <h1>The flex-direction Property</h1>
+
+    <div id="main8">
+        <div style="background-color:coral;">A</div>
+        <div style="background-color:lightblue;">B</div>
+        <div style="background-color:khaki;">C</div>
+        <div style="background-color:pink;">D</div>
+        <div style="background-color:lightgrey;">E</div>
+        <div style="background-color:lightgreen;">F</div>
+    </div>
+
+    <p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the flex-direction property.</p>
+    <!-- ************************************************************ -->
+    <br><br><hr><br>
+    <h1>The flex-flow Property</h1>
+
+    <div id="main9">
+        <div style="background-color:coral;">A</div>
+        <div style="background-color:lightblue;">B</div>
+        <div style="background-color:khaki;">C</div>
+        <div style="background-color:pink;">D</div>
+        <div style="background-color:lightgrey;">E</div>
+        <div style="background-color:lightgreen;">F</div>
+    </div>
+
+    <p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the flex-flow property.</p>
+    <!-- ********************************************************** -->
+    <br><br><hr><br>
+    <h1>The justify-content Property</h1>
+
+    <p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
+
+    <div id="main10">
+        <div style="background-color:coral;">1</div>
+        <div style="background-color:lightblue;">2</div>
+        <div style="background-color:pink;">3</div>
+    </div>
+
+    <p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the justify-content property.</p>
+    <!-- ************************************************************* -->
+    <br><br><hr><br>
+</body>
+</html>

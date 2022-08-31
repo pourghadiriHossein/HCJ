@@ -1,0 +1,14 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Fonts/Catalish\ Huntera.ttf);
+ }
+ 
+ @font-face {
+    font-family: myFirstFont;
+    src: url(../Fonts/Lemon\ Days.ttf);
+    font-weight: bold;
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }

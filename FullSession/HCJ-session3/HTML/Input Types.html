@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+        <label>button:</label>
+        <input type="button" value="submit">
+        <hr>
+        <label>checkbox:</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+        <hr>
+        <label>color:</label>
+        <input type="color" value="#ff0000" id="color" name="color">
+        <hr>
+        <label>date:</label>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02">
+        <hr>
+        <label>datetime-local:</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        <hr>
+        <label>email:</label>
+        <input type="email" id="email" name="email">
+        <hr>
+        <label>file:</label>
+        <input type="file" id="myfile" name="myfile">
+        <hr>
+        <label>hidden:</label>
+        <input type="hidden" id="custId" name="custId" value="3487">
+        <hr>
+        <label>image:</label>
+        <input type="image" src="../Image/img_submit.gif" alt="Submit" width="48" height="48">
+        <hr>
+        <label>month:</label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
+        <hr>
+        <label>number:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30">
+        <hr>
+        <label>password:</label>
+        <input type="password" id="pass" name="pass">
+        <hr>
+        <label>radio:</label>
+        <input type="radio" name="radio">
+        <input type="radio" name="radio">
+        <input type="radio" name="radio">
+        <hr>
+        <label>range:</label>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+        <hr>
+        <label>reset:</label>
+        <input type="reset">
+        <hr>
+        <label>search:</label>
+        <input type="search" id="gsearch" name="gsearch">
+        <hr>
+        <label>submit:</label>
+        <input type="submit" value="send">
+        <hr>
+        <label>tel:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="example: 0930-100-3030">
+        <hr>
+        <label>text:</label>
+        <input type="text" id="fname" name="fname" placeholder="enter your data">
+        <input type="text" id="lname" name="lname" placeholder="enter youyr data">
+        <hr>
+        <label>time:</label>
+        <input type="time" id="appt" name="appt">
+        <hr>
+        <label>url:</label>
+        <input type="url" id="homepage" name="homepage">
+        <hr>
+        <label>week:</label>
+        <input type="week" id="week" name="week">
+    </form>
+    <hr>
+    <pre>
+        Attribute	Description
+
+        checked	        Specifies that an input field should be pre-selected when the page loads (for type="checkbox" or type="radio")
+        disabled	Specifies that an input field should be disabled
+        max	        Specifies the maximum value for an input field
+        maxlength	Specifies the maximum number of character for an input field
+        min	        Specifies the minimum value for an input field
+        pattern	        Specifies a regular expression to check the input value against
+        readonly	Specifies that an input field is read only (cannot be changed)
+        required	Specifies that an input field is required (must be filled out)
+        size	        Specifies the width (in characters) of an input field
+        step	        Specifies the legal number intervals for an input field
+        value	        Specifies the default value for an input field
+    </pre>
+    
+</body>
+</html>

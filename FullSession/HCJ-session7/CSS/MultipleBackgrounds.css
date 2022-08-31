@@ -1,0 +1,117 @@
+#example1 {
+    background-image: url(../Image/selector1.jpeg), url(../Image/selector2.jpeg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
+  /************************************************************/
+
+  #example2 {
+    background: url(../Image/selector1.jpeg) right bottom no-repeat, url(../Image/selector3.jpg) left top repeat;
+    padding: 15px;
+  }
+  /**************************************************************/
+  #example3 {
+    border: 1px solid black;
+    background: url(../Image/selector1.jpeg);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    padding: 15px;
+  }
+  
+  #example4 {
+    border: 1px solid black;
+    background: url(../Image/selector3.jpg);
+    background-repeat: no-repeat;
+    padding: 15px;
+  }
+  /********************************************************************/
+  .div1 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(../Image/selector1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .div2 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(../Image/selector1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .div3 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(../Image/selector1.jpeg);
+    background-repeat: no-repeat;
+  }
+  /******************************************************/
+
+  .hero-image {
+    background: url(../Image/selector2.jpeg) no-repeat center; 
+    background-size: cover;
+    height: 500px;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  /********************************************************/
+
+  #example5 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url(../Image/selector1.jpeg);
+    background-repeat: no-repeat;
+  }
+  
+  #example6 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url(../Image/selector1.jpeg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  }
+  
+  #example7 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url(../Image/selector1.jpeg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+  }
+
+  /*******************************************************/
+
+  #example8 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+  }
+  
+  #example9 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: padding-box;
+  }
+  
+  #example10 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: content-box;
+  }
+

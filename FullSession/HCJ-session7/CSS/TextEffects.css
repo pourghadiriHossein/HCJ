@@ -1,0 +1,78 @@
+div.ed1 {
+    text-align: justify;
+    text-justify: inter-word;
+    /* text-justify: auto|inter-word|inter-character|none|initial|inherit; */
+  }
+/**************************************************************/
+div.a1 {
+    white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: clip; 
+    /* text-overflow: clip|ellipsis|string|initial|inherit; */
+    border: 1px solid #000000;
+  }
+  
+  div.b2 {
+    white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border: 1px solid #000000;
+  }
+  
+  div.c3 {
+    white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: "----"; 
+    border: 1px solid #000000;
+  }
+  /*********************************************************/
+
+  p.a {
+    width: 140px; 
+    border: 1px solid #000000;
+    /* word-break: normal|break-all|keep-all|break-word|initial|inherit; */
+  }
+  
+  p.b {
+    word-break: normal;
+  }
+  
+  p.c {
+    word-break: keep-all;
+  }
+  
+  p.d {
+    word-break: break-all;
+  }
+
+  /***********************************************************/
+
+  div.a {
+    width: 150px; 
+    border: 1px solid #000000;
+    /* word-wrap: normal|break-word|initial|inherit; */
+  }
+  
+  div.b {
+    word-wrap: normal;
+  }
+  
+  div.c {
+    word-wrap: break-word;
+  }
+  /*************************************************************/
+  p.test1 {
+    writing-mode: horizontal-tb; 
+    /* writing-mode: horizontal-tb|vertical-rl|vertical-lr; */
+  }
+  
+  p.test2 {
+    writing-mode: vertical-rl; 
+  }
+  
+  span.test2 {
+    writing-mode: vertical-rl; 
+  }

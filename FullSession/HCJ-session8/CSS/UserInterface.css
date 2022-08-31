@@ -1,0 +1,26 @@
+div.ex1 {
+    margin: 20px;
+    border: 1px solid black;
+    background-color: yellow;
+    outline: 4px solid red;
+    outline-offset: 15px;
+  } 
+  
+  div.ex2 {
+    margin: 10px;
+    border: 1px solid black;
+    background-color: yellow;
+    outline: 5px dashed blue;
+    outline-offset: 5px;
+    /* outline-offset: length|initial|inherit; */
+  }
+  /***************************************/
+  div.ex3 {
+    border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    resize: both;
+    /* resize: none|both|horizontal|vertical|initial|inherit; */
+    overflow: auto;
+  }
+  /********************************************/

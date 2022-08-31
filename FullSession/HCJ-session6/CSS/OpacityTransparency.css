@@ -1,0 +1,42 @@
+img.ed1 {
+    opacity: 0.5;
+  }
+  
+  img.ed1:hover {
+    opacity: 1.0;
+  }
+
+  div.one {
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+  
+  div.first {
+    opacity: 0.1;
+  }
+  
+  div.second {
+    opacity: 0.3;
+  }
+  
+  div.third {
+    opacity: 0.6;
+  }
+
+  div.background {
+    background: url(../Image/opacity3.jpg) repeat;
+    border: 2px solid black;
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }

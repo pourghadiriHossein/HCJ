@@ -1,0 +1,78 @@
+a {
+    font-size: 25px;
+    font-weight: bold;
+    /* margin-top: 500px; */
+    padding: 25px 25px;
+    text-decoration: none;
+}
+.box1 {
+    float: left;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    margin: 100px;
+    padding-top: 100px;
+    border-radius: 25px;
+    background-color: rgb(198, 255, 198);
+}
+.box2 {
+    float: right;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    margin: 100px;
+    padding-top: 80px;
+    border-radius: 25px;
+    background-color: rgb(198, 255, 198);
+}
+.box1:hover {
+    background-color: lightgreen;
+}
+.box2:hover {
+    background-color: white;
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+/* unvisited link */
+img:link {
+    opacity: 0.5;
+}
+
+/* visited link */
+img:visited {
+    opacity: 0.6;
+}
+
+/* mouse over link */
+img:hover {
+    opacity: 0.9;
+}
+
+/* selected link */
+img:active {
+    opacity: 0.4;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+}

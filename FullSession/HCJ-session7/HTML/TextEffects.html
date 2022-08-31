@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/TextEffects.css">
+</head>
+<body>
+    <h1>The text-justify Property</h1>
+
+    <div class="ed1">In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'</div>
+
+    <p><b>Tip:</b> Resize the browser window to see how the value "justify" works.</p>
+    <!-- ******************************************* -->
+    <br><hr><br>
+    <h1>The text-overflow Property</h1>
+
+    <p>The following two divs contains a text that will not fit in the box.</p>
+
+    <h2>text-overflow: clip (default):</h2>
+    <div class="a1">Hello world!</div>
+
+    <h2>text-overflow: ellipsis:</h2>
+    <div class="b2">Hello world!</div>
+
+    <h2>text-overflow: "----" (user defined string):</h2>
+    <div class="c3">Hello world!</div>
+
+    <p><strong>Note:</strong> The text-overflow: "<em>string</em>" only works in 
+    Firefox.</p>
+    <!-- ********************************************* -->
+    <br><hr><br>
+    <h1>The word-break Property</h1>
+
+    <h2>word-break: normal (default):</h2>
+    <p class="a b">Thisissomeveryveryverylong word. Words will break according to usual rules.</p>
+
+    <h2>word-break: keep-all:</h2>
+    <p class="a c">Thisissomeveryveryverylong word. This text will-break-at-hyphens.</p>
+
+    <h2>word-break: break-all:</h2>
+    <p class="a d">Thisissomeveryveryverylong word. This text will break at any character.</p>
+    <!-- ************************************************* -->
+    <br><hr><br>
+    <h1>The word-wrap Property</h1>
+
+    <h2>word-wrap: normal (default):</h2>
+    <div class="a b"> This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will not break and wrap to the next line.</div>
+
+    <h2>word-wrap: break-word:</h2>
+    <div class="a c"> This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</div>
+    <!-- ******************************************************* -->
+    <br><hr><br>
+    <h1>The writing-mode Property</h1>
+
+    <p class="test1">Some text with default writing-mode.</p>
+
+    <p>Some text with a span element with a <span class="test2">vertical-rl</span> writing-mode.</p>
+
+    <p class="test2">Some text with writing-mode: vertical-rl.</p>
+    <br>
+</body>
+</html>
