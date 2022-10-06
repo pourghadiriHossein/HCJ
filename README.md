@@ -12,10 +12,10 @@
     </ul>
   </li><br>
   <li><a href="https://www.w3schools.com/css/css_background.asp">Backgrounds</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_border.asp">Borders</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_margin.asp">Margins</a></li><br>
-  <li><a href="https://www.w3schools.com/css/css_padding.asp">Padding</a></li><br>
   <li><a href="https://www.w3schools.com/css/css_outline.asp">Outline</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css_margin.asp">Margins</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css_border.asp">Borders</a></li><br>
+  <li><a href="https://www.w3schools.com/css/css_padding.asp">Padding</a></li><br>
 </ol>
 <img src="https://github.com/pourghadiriHossein/HCJ/blob/session4/Image/OMBP1.jfif" width="602" height=""452>
 <img src="https://github.com/pourghadiriHossein/HCJ/blob/session4/Image/OMBP2.png" width="602" height=""452>
