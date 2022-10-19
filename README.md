@@ -9,6 +9,6 @@
   <li><a href="https://www.w3schools.com/html/html_images.asp">Images</a></li><br>
   <li><a href="https://www.w3schools.com/html/html_favicon.asp">Favicon</a></li><br>
   <li><a href="https://www.w3schools.com/html/html_head.asp">Head</a></li><br>
-  <li><a href="https://www.w3schools.com/html/html_tables.asp">Tables</a></li><br>
   <li><a href="https://www.w3schools.com/html/html_lists.asp">Lists</a></li><br>
+  <li><a href="https://www.w3schools.com/html/html_tables.asp">Tables</a></li><br>
 </ol>
