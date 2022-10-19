@@ -23,6 +23,7 @@
   <li><a target="_blank" href="https://laman7.com/website-design-style/">Web Design Style</a></li><br>
   <li><a target="_blank" href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=en">google translate extension</a></li><br>
   <li><a target="_blank" href="https://www.w3schools.com/html/">HTML</a>
+  <li>HTML Tag Statement</li><br>
     <br>
     <br>
     <ul>
@@ -33,5 +34,5 @@
   </li><br>
   <li><a target="_blank" href="https://www.w3schools.com/tags/default.asp">All Tag in HTML</a></li><br>
   <li><a target="_blank" href="https://www.w3schools.com/html/html_blocks.asp">HTML Block and Inline Elements</a></li><br>
-  <li>HTML Tag Statement</li><br>
+  
 </ul>
