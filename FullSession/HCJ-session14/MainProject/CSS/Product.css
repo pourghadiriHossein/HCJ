@@ -123,12 +123,12 @@
     vertical-align: top;
     display: inline-block;
 }
-.smallImage > img {
+.smallImage > a > img {
     width: 100%;
     border-radius: 5px;
     box-shadow: 3px 3px 9px #0f4857;
 }
-.smallImage > img:hover {
+.smallImage > a > img:hover {
     box-shadow: 3px 3px 9px #1f9e67;
 }
 .smallDetail {
@@ -179,21 +179,21 @@
     width: 30%;
     margin: 2% 1%;
 }
-.imageBox > img {
+.imageBox > a > img {
     width: 100%;
     height: auto;
     border-radius: 5px;
     box-shadow: 3px 3px 9px rgba(15, 72, 87, 0.5);
 }
 
-.imageBox > img:hover {
+.imageBox > a > img:hover {
     box-shadow: 3px 3px 9px rgba(31, 158, 103, 0.9);
     transition: all 1s ease;
 }
 .secondImageBox {
     position: relative;
 }
-.secondImageBox > img {
+.secondImageBox > a > img {
     opacity: 0;
     position: absolute;
     transform: translate(50%, -102%);
@@ -204,7 +204,7 @@
     transition: all 1s;
 }
 
-.secondImageBox > div {
+.secondImageBox > a > div {
     z-index: -1;
     opacity: 0;
     color: white;
@@ -218,14 +218,14 @@
     height: auto;
     background-color: #0f4857;
 }
-.imageBox > img:hover{
+.imageBox > a > img:hover{
     opacity: 0;
 }
-.imageBox:hover > .secondImageBox > img{
+.imageBox:hover > .secondImageBox > a > img{
     opacity: 1;
     z-index: 0;
 }
-.imageBox:hover > .secondImageBox > div{
+.imageBox:hover > .secondImageBox > a > div{
     opacity: 1;
     z-index: 0;
     transition: all 0.8s;
@@ -235,14 +235,14 @@
     margin: 10px 0;
     text-align: right;
 }
-.productName > p {
+.productName > a > p {
     display: inline-block;
     font-weight: bold;
 }
-.productName > p:hover {
+.productName > a > p:hover {
     color: #1f9e67;
 }
-.productName > img {
+.productName > a > img {
     display: inline;
     float: left;
     width: 35px;
