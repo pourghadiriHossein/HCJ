@@ -20,6 +20,12 @@ ins {
     outline: 0;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    background-color: inherit;
+    color: inherit;
+    cursor: pointer;
+}
 .mainBox {
     margin: 0;
     border: 0;
