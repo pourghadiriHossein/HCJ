@@ -85,21 +85,21 @@ img.imgRightBottom:hover {
     width: 20%;
     margin: 3px 5px;
 }
-.imageBox > img {
+.imageBox > a > img {
     width: 100%;
     height: auto;
     border-radius: 5px;
     box-shadow: 3px 3px 9px rgba(15, 72, 87, 0.5);
 }
 
-.imageBox > img:hover {
+.imageBox > a > img:hover {
     box-shadow: 3px 3px 9px rgba(31, 158, 103, 0.9);
     transition: all 1s ease;
 }
 .secondImageBox {
     position: relative;
 }
-.secondImageBox > img {
+.secondImageBox > a > img {
     opacity: 0;
     position: absolute;
     transform: translate(50%, -102%);
@@ -109,7 +109,7 @@ img.imgRightBottom:hover {
     box-shadow: 3px 3px 9px rgba(31, 158, 103, 0.3);
 }
 
-.secondImageBox > div {
+.secondImageBox > a > div {
     z-index: -1;
     opacity: 0;
     color: white;
@@ -123,14 +123,14 @@ img.imgRightBottom:hover {
     height: auto;
     background-color: #0f4857;
 }
-.imageBox > img:hover{
+.imageBox > a > img:hover{
     opacity: 0;
 }
-.imageBox:hover > .secondImageBox > img{
+.imageBox:hover > .secondImageBox > a > img{
     opacity: 1;
     z-index: -1;
 }
-.imageBox:hover > .secondImageBox > div{
+.imageBox:hover > .secondImageBox > a > div{
     opacity: 1;
     z-index: -1;
 }
@@ -139,14 +139,14 @@ img.imgRightBottom:hover {
     margin: 10px 0;
     text-align: right;
 }
-.productName > p {
+.productName > a > p {
     display: inline-block;
     font-weight: bold;
 }
-.productName > p:hover {
+.productName > a > p:hover {
     color: #1f9e67;
 }
-.productName > img {
+.productName > a > img {
     display: inline;
     float: left;
     width: 35px;
